@@ -87,6 +87,10 @@ abbr[title] {
   text-decoration-skip-ink: none;
 }
 
+.color-red > a > i {
+  color: #32cd32;
+}
+
 @include link(true, true);
 
 @import '../_partials/mask';

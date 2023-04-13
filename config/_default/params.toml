@@ -4,18 +4,18 @@
 # -------------------------------------------------------------------------------------
 
 # FixIt 0.2.15 | CHANGED FixIt theme version
-version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+version = "v0.1" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "Homepage and Blog about Cybersecurity and OSINT."
 # site keywords
-keywords = ["Hugo", "FixIt"]
+keywords = ["Hugo", "OSINT", "hacking", "cybersecurity", "research", "programming", "networking", "security"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
-gitRepo = ""
+gitRepo = "https://github.com/StasonJatham/karlcom-blog"
 # FixIt 0.1.1 | NEW which hash function used for SRI, when empty, no SRI is used
 # ["sha256", "sha384", "sha512", "md5"]
-fingerprint = ""
+fingerprint = "sha265"
 # FixIt 0.2.0 | NEW date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
@@ -31,11 +31,11 @@ disableThemeInject = false
 # FixIt 0.2.0 | NEW App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "Malware Blog 🥷"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = ""
+  svgFavicon = "/cat_no_back.ico"
   # Safari mask icon color
   iconColor = "#5bbad5"
   # Windows v8-10 tile color
@@ -87,9 +87,8 @@ disableThemeInject = false
   # FixIt 0.2.0 | NEW Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/fixit.min.svg"
-    # title name
-    name = "Hugo FixIt Blog"
+    logo = "/cat_no_back.png"
+    name = "Malware.to"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -105,7 +104,7 @@ disableThemeInject = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
-  enable = false
+  enable = true
   sticky = false
   showHome = false
 
@@ -114,15 +113,15 @@ disableThemeInject = false
   enable = true
   # FixIt 0.2.17 | CHANGED Custom content (HTML format is supported)
   # For advanced use, see parameter `params.customFilePath.footer`
-  custom = ""
+  custom = 'Made with &#10084;&#65039; in Berlin<br>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="gohugo">Hugo</a> <i class="fa-brands fa-golang"></i> | Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener noreferrer" title="GitHub Pages">GitHub Pages</a> <i class="fa-brands fa-github"></i>'
   # FixIt 0.2.0 | NEW whether to show Hugo and theme info
-  hugo = true
+  hugo = false
   # FixIt 0.2.0 | NEW whether to show copyright info
   copyright = true
   # FixIt 0.2.0 | NEW whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2023
   # FixIt 0.2.14 | NEW whether to show total word count of site content
   wordCount = true
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
@@ -186,15 +185,15 @@ disableThemeInject = false
   [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = ""
     # URL of avatar shown in home page
-    avatarURL = ""
+    avatarURL = "/karl_square_yellow_back.jpeg"
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = ""
     # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-    title = ""
+    title = "Cybersecurity Blog & Homepage"
     # subtitle shown in home page
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = 'Hire a Hacker!&#129399;&#127995;'
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -209,12 +208,12 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-  GitHub = ""
+  GitHub = "https://github.com/StasonJatham"
   Linkedin = ""
   Twitter = ""
   Instagram = ""
   Facebook = ""
-  Telegram = ""
+  Telegram = "#"
   Medium = ""
   Gitlab = ""
   Youtubelegacy = ""
@@ -264,7 +263,7 @@ disableThemeInject = false
   Vine = ""
   Googlescholar = ""
   Researchgate = ""
-  Mastodon = ""
+  Mastodon = "#"
   Thingiverse = ""
   Devto = ""
   Gitea = ""
@@ -274,23 +273,23 @@ disableThemeInject = false
   ORCID = ""
   Liberapay = ""
   Ko-Fi = ""
-  BuyMeaCoffee = ""
+  BuyMeaCoffee = "#"
   Linktree = ""
   QQ = ""
   QQGroup = "" # https://qun.qq.com/join.html
   Diaspora = ""
   CSDN = ""
-  Discord = ""
+  Discord = "#"
   DiscordInvite = ""
   Lichess = ""
   Pleroma = ""
   Kaggle = ""
   MediaWiki= ""
   Plume = ""
-  HackTheBox = ""
+  HackTheBox = "#"
   RootMe = ""
   Feishu = ""
-  TryHackMe = ""
+  TryHackMe = "#"
   Douyin = ""
   TikTok = ""
   Phone = ""
@@ -377,7 +376,7 @@ disableThemeInject = false
     # whether to show the copy button of the code block
     copy = true
     # FixIt 0.2.13 | NEW whether to show the edit button of the code block
-    edit = true
+    edit = false
     # the maximum number of lines of displayed code by default
     maxShownLines = 10
   # FixIt 0.2.14 | NEW Post edit
@@ -409,7 +408,7 @@ disableThemeInject = false
     animation = false
     # position relative to post footer, optional values: ["before", "after"]
     position = "after"
-    # comment = "Buy me a coffee"
+    #comment = "Buy me a coffee"
     # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
     mode = "static"
     [page.reward.ways]
@@ -422,7 +421,7 @@ disableThemeInject = false
     enable = true
     Twitter = true
     Facebook = true
-    Linkedin = false
+    Linkedin = true
     Whatsapp = false
     Pinterest = false
     Tumblr = false
@@ -430,7 +429,7 @@ disableThemeInject = false
     Reddit = false
     VK = false
     Buffer = false
-    Xing = false
+    Xing = true
     Line = false
     Instapaper = false
     Pocket = false
@@ -693,7 +692,7 @@ disableThemeInject = false
 
 # FixIt 0.2.7 | NEW Cookie consent config
 [cookieconsent]
-  enable = true
+  enable = false
   # text strings used for Cookie consent banner
   [cookieconsent.content]
     message = ""
@@ -724,7 +723,7 @@ disableThemeInject = false
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
   # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-  enable = true
+  enable = false
   # Gravatar host, default: "www.gravatar.com"
   host = "gravatar.loli.net" # ["cn.gravatar.com", "gravatar.loli.net", ...]
   style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
@@ -733,7 +732,7 @@ disableThemeInject = false
 [backToTop]
   enable = true
   # Scroll percent label in b2t button
-  scrollpercent = false
+  scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
@@ -750,7 +749,7 @@ disableThemeInject = false
 # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 [pace]
-  enable = false
+  enable = true
   # All available colors:
   # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
   color = "blue"

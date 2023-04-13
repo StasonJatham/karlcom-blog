@@ -14,3 +14,5 @@
 ▸ themes/        # theme submodules
 ```
 
+### Notes
+- I added CSS classes to `theme > FixIt > assets > css > _core > _base.scss` that way you can add them to Menu items and such.

@@ -44,3 +44,24 @@
   weight = 3
   [main.params]
     icon = "fa-solid fa-tags"
+[[main]]
+  identifier = "contact"
+  pre = ""
+  post = ""
+  name = "Contact"
+  url = "/contact/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-regular fa-paper-plane"
+[[main]]
+  identifier = "support"
+  pre = ""
+  post = ""
+  name = "Support"
+  url = "/support/"
+  title = ""
+  weight = 5
+  [main.params]
+    class = 'color-red'
+    icon = 'fa-solid fa-piggy-bank'
