@@ -198,6 +198,23 @@
       {{- end -}}
     </div>
 
+    {{- with .Site.Params.social.BuyMeaCoffee -}}
+    <p style="margin-top: 4em;"><strong>If you like my blog, please consider supporting me by buying me some coffee.</strong></p>  
+    <script 
+      type="text/javascript" 
+      src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
+      data-name="bmc-button" 
+      data-slug="{{- . -}}"
+      data-color="#FFDD00" 
+      data-emoji="" 
+      data-font="Inter"
+      data-text="Buy me a coffee"
+      data-outline-color="#000000"
+      data-font-color="#000000"
+      data-coffee-color="#ffffff"
+    ></script>
+    {{- end -}}
+
     {{- /* Footer and Reward */ -}}
     {{- $reward := .Scratch.Get "reward" -}}
     {{- if eq $reward.position "before" -}}
