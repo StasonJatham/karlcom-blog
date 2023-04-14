@@ -9,7 +9,7 @@
   pre = ""
   # you can add extra information after the name (HTML format is supported), such as icons
   post = ""
-  name = "Posts"
+  name = "📝Posts"
   url = "/posts/"
   # title will be shown when you hover on this menu link
   title = ""
@@ -21,47 +21,45 @@
     # whether set as a draft menu item whose function is similar to a draft post/page
     draft = false
     # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
-    icon = "fa-solid fa-archive"
+    #icon = "fa-solid fa-archive"
     # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
     type = ""
 [[main]]
   identifier = "categories"
   pre = ""
   post = ""
-  name = "Categories"
+  name = "🗃Categories"
   url = "/categories/"
   title = ""
   weight = 2
   [main.params]
-    icon = "fa-solid fa-th"
+    #icon = "fa-solid fa-th"
 [[main]]
   identifier = "tags"
   pre = ""
   post = ""
-  name = "Tags"
+  name = "📍Tags"
   url = "/tags/"
   title = ""
   weight = 3
   [main.params]
-    icon = "fa-solid fa-tags"
+
 [[main]]
   identifier = "contact"
   pre = ""
   post = ""
-  name = "Contact"
+  name = "🛸Contact"
   url = "/contact/"
   title = ""
   weight = 4
   [main.params]
-    icon = "fa-regular fa-paper-plane"
+
 [[main]]
   identifier = "support"
   pre = ""
   post = ""
-  name = "Support"
+  name = "💵Support"
   url = "/support/"
   title = ""
   weight = 5
   [main.params]
-    class = 'color-red'
-    icon = 'fa-solid fa-piggy-bank'

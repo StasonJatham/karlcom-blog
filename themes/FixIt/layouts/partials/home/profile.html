@@ -1,3 +1,6 @@
+{{- $authorInfo := .Site.Author -}}
+
+
 {{- $profile := .Site.Params.home.profile -}}
 <div class="home-profile">
   {{- $avatar := $profile.avatarURL -}}
@@ -110,5 +113,13 @@
   {{- end -}}
 
   {{- /* Custom Content */ -}}
-  {{- partial (.Scratch.Get "customFilePath").profile . -}}
+
+  {{- with $authorInfo.about_me -}}
+  <h3>About Me</h3>
+  <p class="">
+    {{- . | safeHTML -}}
+  </p>
+  {{- end -}}
+
+  {{- partial (.Scratch.Get "customFilePath").profile . -}}  
 </div>
