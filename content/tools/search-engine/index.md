@@ -18,6 +18,20 @@ input[type=submit] {
   margin: 1px 1px;
   cursor: pointer;
 }
+
+input[type=submit]:hover {
+  background-color: #90e9f9;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 1px 1px;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem black;
+  transform: translate(-1px, -1px);
+  transition-duration: 0.2s;
+}
 </style>
 
 <div class="searchengine-body">
