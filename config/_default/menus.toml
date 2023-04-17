@@ -34,12 +34,13 @@
   weight = 2
   [main.params]
     #icon = "fa-solid fa-th"
+
 [[main]]
-  identifier = "tags"
+  identifier = "tools"
   pre = ""
   post = ""
-  name = "📍Tags"
-  url = "/tags/"
+  name = "🐱‍💻 Tools"
+  url = "/tools/"
   title = ""
   weight = 3
   [main.params]
@@ -62,4 +63,26 @@
   url = "/support/"
   title = ""
   weight = 5
+  [main.params]
+
+[[main]]
+  identifier = "social-media"
+  parent = "tools"
+  pre = ""
+  post = ""
+  name = "Social Media"
+  url = "/tools/social-media"
+  title = ""
+  weight = 6
+  [main.params]
+
+[[main]]
+  identifier = "search-engine"
+  parent = "tools"
+  pre = ""
+  post = ""
+  name = "Search Engine"
+  url = "/tools/search-engine"
+  title = ""
+  weight = 6
   [main.params]

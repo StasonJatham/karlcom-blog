@@ -130,6 +130,8 @@ disableThemeInject = false
   icp = ""
   # license info (HTML format is supported)
   license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # show carbon footprint on page from: https://www.websitecarbon.com/badge/
+  carbonfootprint = true 
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
     enable = false
